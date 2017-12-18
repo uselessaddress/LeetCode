@@ -172,6 +172,8 @@ let longestPalindrome = (s) => {
     // return s.split('').slice(res_left,res_right+1).join('')
 
     //----终极解决方案，(Manacher's Algorithm)马拉车算法,O(n)
+    //http://www.cnblogs.com/grandyang/p/4475985.html
+    //http://blog.csdn.net/dyx404514/article/details/42061017
     let right_max = 0,mid = 0 ,res_center=0,res_max = 0,str = '$#',p=[]
     for(let i=0;i<s.length;i++){
         str += s[i]
