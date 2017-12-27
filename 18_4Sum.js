@@ -48,3 +48,6 @@ let fourSum = (nums,target)=>{
 
 console.log(fourSum([1, 0, -1, 0, -2, 2],0))
 console.log(fourSum([-1,0,1,2,-1,-4],-1))
+
+
+  
