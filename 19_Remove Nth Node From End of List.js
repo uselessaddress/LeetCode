@@ -28,7 +28,7 @@ function ListNode(val){
 }
 
 let Node1 = new ListNode(1),
-    Node2 = new ListNode(2),
+    Node2 = new ListNode(2)
     Node3 = new ListNode(3),
     Node4 = new ListNode(4),
     Node5 = new ListNode(5)
@@ -38,7 +38,7 @@ Node2.next = Node3
 Node3.next = Node4
 Node4.next = Node5
 
-//有问题...
+//有问题... one pass
 //  let removeNthFromEnd=(head,n)=>{
 //     let arr = [] 
 //     while(head!==null){
